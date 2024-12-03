@@ -5,17 +5,17 @@ The Library Book Management System is a software solution developed to manage es
 
 **Key Features**:
 The system integrates several features to manage library operations effectively:
-**Book Cataloging**:
+1. **Book Cataloging**:
 Books are stored using arrays or STL vectors, making it easy to add, delete, and view book details such as title, author, and ISBN.The cataloging process organizes book information efficiently for further operations.
-**Sorting and Searching**:
+2. **Sorting and Searching**:
 Books can be sorted by title or ISBN using Quick Sort and Bubble Sort algorithms for better accessibility. Binary Search Tree (BST) allows fast searching of books by title, ensuring quick results even for large datasets.
-**Borrowing and Returning Books**:
+2. **Borrowing and Returning Books**:
 A stack tracks recent book transactions (borrowed or returned), providing a quick history of user activities. A queue manages reservations for books that are currently unavailable, ensuring fair distribution.
-**Member Management**:
+4. **Member Management**:
 Linked lists store and manage member information, associating issued books with specific members.
-**Library Hierarchy**:
+5. **Library Hierarchy**:
 Tree structures represent sections of the library (e.g., Fiction, Non-Fiction), aiding in the logical organization of books.
-**User-Friendly Interface**:
+6. **User-Friendly Interface**:
 The interactive menu guides users through various operations like viewing books, borrowing, returning, or searching with simple instructions.
 
 
