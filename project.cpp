@@ -16,7 +16,7 @@ private:
 public:
     Queue() : first(nullptr), rear(nullptr) {}
 
-    void enqueue(string s) { // adding element to reservation queue
+    void enqueue(string s) { // adding new user to reservation queue
         Qn* ptr = new Qn();
         ptr->info = s;
         ptr->link = nullptr;
