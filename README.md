@@ -34,7 +34,7 @@ This section explains how each feature of the system is implemented and function
 	By Title: Quick Sort is used for more efficient sorting of books alphabetically by title. Once sorted, the catalog is displayed for users.
 
 4.	**Searching Books**:
-	The search_book function uses the BST to locate a book by title. If found, the book's details are displayed; otherwise, a "Book not found" message is shown.
+	The search_book function uses the BST(Binary Search Tree) to locate a book by title. If found, the book's details are displayed; otherwise, a "Book not found" message is shown.
 	Example: Searching for "1984" will return its details if stored.
 
 
@@ -44,7 +44,7 @@ This section explains how each feature of the system is implemented and function
 	The borrowed book is marked as "unavailable," and the transaction is pushed onto a stack for record-keeping.
 
 6.	**Returning Books**:
-	The return_book function updates the status of returned books to "available." If the book has a reservation queue, it assigns the book to the next person in the queue.
+	The return_book function updates the status of returned books to "available", if reservation queue is empty. Else it assigns the book to the next person in the reservation queue.
 	The transaction is logged in the stack for traceability.
 
 7.	**Recent Transactions**:
