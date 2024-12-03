@@ -3,7 +3,7 @@ using namespace std;
 
 class Qn {
 public:
-    string info;
+    string info, name;
     Qn* link;
     Qn() : info(""), link(nullptr) {}
 };
