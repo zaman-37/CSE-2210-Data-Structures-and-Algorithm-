@@ -1,7 +1,7 @@
 *****************************************************************************************LIBRARY MANAGEMENT SYSTEM*******************************************************************************************
 
 **Introduction**:
-The Library Book Management System is a software solution developed to manage essential library operations such as storing book information, issuing and returning books, managing member details, and organizing library sections. The system uses fundamental data structures like arrays, stacks, queues, linked lists, and trees to efficiently manage these tasks, making it an excellent project for understanding data structures and algorithms in real-world applications.
+The Library Book Management System is a software solution developed to manage essential library operations such as storing book information, issuing and returning books, managing member details, and organizing library sections. The system uses fundamental data structures like arrays, stacks, queues, linked lists, BST, Graph and trees and also concepts of OOPs to efficiently manage these tasks, making it an excellent project for understanding data structures and algorithms in real-world applications. Here we didn't use STL sorting, STL stack and Queue, we used our self implemented Stack and Queue, and two sorting algorithm(Bubble sort and Quick Sort).
 
 **Key Features**:
 The system integrates several features to manage library operations effectively:
