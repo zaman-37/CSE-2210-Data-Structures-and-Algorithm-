@@ -1,4 +1,6 @@
 #include <bits/stdc++.h>
+#include <vector>
+
 using namespace std;
 
 vector<vector<int>> maz; // Maze input
