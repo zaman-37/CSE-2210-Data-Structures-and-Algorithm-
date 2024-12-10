@@ -3,15 +3,7 @@ using namespace std;
 
 
 class Quick_sort{
-    public: 
-    void sort(vector<string> &b, int low, int high) {
-        if (low > high) {
-            return;
-        }
-        int p = partition(b, low, high);
-        sort(b, low, p-1);
-        sort(b, p+1, high);
-    }
+    private: 
     int partition(vector<string> &bk, int low, int high) {
         string pivot = bk[high];
         int i = low;
@@ -24,6 +16,16 @@ class Quick_sort{
         swap(bk[i], bk[high]);
         return i;
     }
+
+    public: 
+    void sort(vector<string> &b, int low, int high) {
+        if (low > high) {
+            return;
+        }
+        int p = partition(b, low, high);
+        sort(b, low, p-1);
+        sort(b, p+1, high);
+    } 
 };
 
 
