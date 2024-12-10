@@ -26,7 +26,7 @@ public:
     }
 
     bool isEmpty() {
-        return (last == nullptr);
+        return (first == nullptr);
     }
 
     void dequeue() {
@@ -65,6 +65,11 @@ int main() {
     q.enqueue(7);
 
     q.traverse();
+    cout << q.front() << endl;
+    cout << q.back() << endl;
+
+    q.dequeue();
+    cout << q.front() << endl;
     
 
     return 0;
