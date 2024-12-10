@@ -1,5 +1,3 @@
-// bfs and dfs implementation
-
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -11,33 +9,32 @@ void bfs(int v) {
     queue<int> q;
     q.push(v);
     lev[v] = 0;
-    vis[v] = 1;
+    vis[v] = 1;  // Corrected to use `vis`
 
     while (!q.empty()) {
         int a = q.front();
         q.pop();
 
         for (auto u: adj[a]) {
-            if (!vis[u]) {
+            if (!vis[u]) {  // Corrected to check `vis`
                 q.push(u); 
                 lev[u] = lev[a] + 1;
-                vis[u] = 1;
+                vis[u] = 1;  // Corrected to mark `vis`
             }
         }
     }
 }
 
 void dfs (int v) {
-    vis[v] = 1;
+    vis2[v] = 1;
     for (auto ch: adj[v]) {
-        if (!vis[ch]) {
+        if (!vis2[ch]) {
             dfs(ch);
         }
     }
 }
 
 int main() {
-    
     int n, m;
     cin >> n >> m;
     adj.assign(n+5, vector<int>());
@@ -61,4 +58,4 @@ int main() {
     }
 
     return 0;
-} 
+}
