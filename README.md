@@ -34,5 +34,5 @@
 |02|[Binary Search Tree used in Library Management project](https://github.com/zaman-37/CSE-2210-Data-Structures-and-Algorithm-/blob/main/Project%20-%20Library%20Management%20System/4_binary_search_tree.cpp)|
 |03|[Quick Sort used in Library Management project](https://github.com/zaman-37/CSE-2210-Data-Structures-and-Algorithm-/blob/main/Project%20-%20Library%20Management%20System/5_quick_sort.cpp)|
 |04|[Stack and Queue used in Library Management project](https://github.com/zaman-37/CSE-2210-Data-Structures-and-Algorithm-/blob/main/Project%20-%20Library%20Management%20System/6_Stack_and_queue.cpp)|
-|05|[Project Proposal (prepaeed by our course teacher)](https://github.com/shahidul034/Data-Structures-and-Algorithm-Tutorial/blob/main/lecture/open_ended_project3.md)|
+|05|[Project Proposal (prepared by our course teacher)](https://github.com/shahidul034/Data-Structures-and-Algorithm-Tutorial/blob/main/lecture/open_ended_project3.md)|
 
