@@ -1,6 +1,6 @@
 #CSE 2210 Data Structures and Algorithm
 ---
-##Conten of the file `Practice During Lab`
+##Conten of the file named `Practice During Lab`
 
 |Lab| Topic|
 |---|---|
